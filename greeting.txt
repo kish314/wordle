@@ -1,0 +1,9 @@
+
+WELCOME to Naomi's Valentine Wordle!!
+It's the same as wordle except for some differences:
+1. Type every guess in lower case
+2. When you guess your word, if a '_' replaces a letter, that letter is not in the word
+3. If a lower case letter remains, that letter is in the word but not in the right spot
+4. If the lower case letter you typed is replaced with an upper case letter, then that letter is in the right place
+
+ENJOY!!
