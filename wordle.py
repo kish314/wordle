@@ -1,4 +1,5 @@
 import re
+import random
 
 
 if __name__=='__main__':
@@ -9,11 +10,15 @@ if __name__=='__main__':
 
     words = open("words.txt", "r")
     content = words.read()
+    content = content.replace("[", "")
+    content = content.replace("]", "")
+    content = content.replace("\"", "")
+    content = content.split(",")
 
 
     print("Enter 5 letter word: \n")
     turns = 1
-    ans="sushi"
+    ans= content[random.randint(0,len(content)-1)]
     letters = {}
     for x in ans:
         if x in letters:
