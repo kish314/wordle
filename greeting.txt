@@ -1,5 +1,5 @@
 
-WELCOME to Naomi's Valentine Wordle!!
+WELCOME to Wordle!!
 It's the same as wordle except for some differences:
 1. Type every guess in lower case
 2. When you guess your word, if a '_' replaces a letter, that letter is not in the word
